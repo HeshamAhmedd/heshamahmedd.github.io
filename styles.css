@@ -466,6 +466,25 @@ section {
     justify-content: center;
 }
 
+.about-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-visualization {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation: fadeIn 1s ease-out;
+}
+
+.tech-visualization svg {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 0 30px var(--accent-glow));
+}
+
 .image-placeholder {
     width: 300px;
     height: 300px;
@@ -854,6 +873,11 @@ section {
     }
 
     .image-placeholder {
+        width: 250px;
+        height: 250px;
+    }
+
+    .tech-visualization {
         width: 250px;
         height: 250px;
     }
