@@ -75,9 +75,9 @@ skillCategories.forEach((category, index) => {
 const nav = document.querySelector('.nav');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
-        nav.style.background = 'rgba(10, 14, 39, 0.95)';
+        nav.style.background = 'rgba(0, 0, 0, 0.98)';
     } else {
-        nav.style.background = 'rgba(10, 14, 39, 0.8)';
+        nav.style.background = 'rgba(0, 0, 0, 0.9)';
     }
 });
 
@@ -205,7 +205,7 @@ const createMobileMenu = () => {
                 top: 80px;
                 left: 0;
                 right: 0;
-                background: rgba(10, 14, 39, 0.98);
+                background: rgba(0, 0, 0, 0.98);
                 backdrop-filter: blur(10px);
                 flex-direction: column;
                 padding: 24px;
