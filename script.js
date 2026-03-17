@@ -1,23 +1,3 @@
-// Intro Screen Animation
-window.addEventListener('load', () => {
-    const introScreen = document.getElementById('introScreen');
-    const body = document.body;
-    
-    // Add class to prevent scrolling during intro
-    body.classList.add('intro-active');
-    
-    // Remove intro screen after animation completes
-    setTimeout(() => {
-        introScreen.classList.add('fade-out');
-        body.classList.remove('intro-active');
-        
-        // Remove from DOM after fade out
-        setTimeout(() => {
-            introScreen.remove();
-        }, 1000);
-    }, 3500); // Show intro for 3.5 seconds
-});
-
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
