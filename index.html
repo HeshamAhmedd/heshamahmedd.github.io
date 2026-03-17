@@ -10,6 +10,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Intro Animation Screen -->
+    <div class="intro-screen" id="introScreen">
+        <div class="intro-background">
+            <div class="intro-grid"></div>
+            <div class="intro-particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        <div class="intro-content">
+            <div class="intro-logo">
+                <span class="intro-letter">H</span>
+                <span class="intro-letter">E</span>
+                <span class="intro-letter">S</span>
+                <span class="intro-letter">H</span>
+                <span class="intro-letter">A</span>
+                <span class="intro-letter">M</span>
+            </div>
+            <div class="intro-subtitle">AI Engineer</div>
+            <div class="intro-line"></div>
+        </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
@@ -54,8 +83,8 @@
             </div>
             <div class="hero-stats">
                 <div class="stat-card">
-                    <div class="stat-number">10+</div>
-                    <div class="stat-label">Real-World AI Projects</div>
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">AI Projects</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">250K+</div>
@@ -444,6 +473,126 @@
         </div>
     </section>
 
+    <!-- Soft Skills Section -->
+    <section id="soft-skills" class="soft-skills">
+        <div class="container">
+            <h2 class="section-title">Soft Skills</h2>
+            <div class="soft-skills-grid">
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--accent)" stroke-width="3"/>
+                            <path d="M30 50 L45 65 L70 35" stroke="var(--accent)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Problem Solving</h3>
+                    <p class="soft-skill-description">
+                        Strong analytical mindset with ability to break down complex problems into actionable solutions
+                    </p>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="30" r="12" fill="var(--accent)"/>
+                            <circle cx="30" cy="70" r="12" fill="var(--accent)" opacity="0.7"/>
+                            <circle cx="70" cy="70" r="12" fill="var(--accent)" opacity="0.7"/>
+                            <line x1="50" y1="42" x2="35" y2="60" stroke="var(--accent)" stroke-width="3"/>
+                            <line x1="50" y1="42" x2="65" y2="60" stroke="var(--accent)" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Team Collaboration</h3>
+                    <p class="soft-skill-description">
+                        Effective communicator who thrives in collaborative environments and cross-functional teams
+                    </p>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 80 L50 20 L80 80 Z" fill="none" stroke="var(--accent)" stroke-width="3"/>
+                            <circle cx="50" cy="45" r="8" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Attention to Detail</h3>
+                    <p class="soft-skill-description">
+                        Meticulous approach to code quality, data accuracy, and project documentation
+                    </p>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="35" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="5 5">
+                                <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="10s" repeatCount="indefinite"/>
+                            </circle>
+                            <rect x="40" y="25" width="20" height="50" rx="3" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Adaptability</h3>
+                    <p class="soft-skill-description">
+                        Quick learner who embraces new technologies and adapts to changing project requirements
+                    </p>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="60" width="15" height="20" fill="var(--accent)" opacity="0.5"/>
+                            <rect x="42.5" y="45" width="15" height="35" fill="var(--accent)" opacity="0.7"/>
+                            <rect x="65" y="25" width="15" height="55" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Continuous Learning</h3>
+                    <p class="soft-skill-description">
+                        Passionate about staying current with AI trends, research papers, and emerging technologies
+                    </p>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="50" r="15" fill="none" stroke="var(--accent)" stroke-width="3"/>
+                            <circle cx="70" cy="50" r="15" fill="none" stroke="var(--accent)" stroke-width="3"/>
+                            <path d="M45 50 L55 50" stroke="var(--accent)" stroke-width="3"/>
+                            <path d="M30 35 L30 25 M70 35 L70 25 M30 25 L70 25" stroke="var(--accent)" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Time Management</h3>
+                    <p class="soft-skill-description">
+                        Skilled at prioritizing tasks, meeting deadlines, and balancing multiple projects efficiently
+                    </p>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="30" fill="none" stroke="var(--accent)" stroke-width="3"/>
+                            <path d="M50 25 Q65 50 50 75 Q35 50 50 25" fill="var(--accent)" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Critical Thinking</h3>
+                    <p class="soft-skill-description">
+                        Data-driven decision maker who evaluates multiple approaches before implementation
+                    </p>
+                </div>
+
+                <div class="soft-skill-card">
+                    <div class="soft-skill-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="25" y="35" width="50" height="35" rx="5" fill="none" stroke="var(--accent)" stroke-width="3"/>
+                            <path d="M35 45 L45 55 L65 35" stroke="var(--accent)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="soft-skill-title">Communication</h3>
+                    <p class="soft-skill-description">
+                        Able to explain complex technical concepts clearly to both technical and non-technical audiences
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -454,10 +603,10 @@
                     Feel free to reach out!
                 </p>
                 <div class="contact-grid">
-                    <a href="mailto:hesham67834512@gmail.com" class="contact-card">
+                    <a href="/cdn-cgi/l/email-protection#630b06100b020e55545b505756525123040e020a0f4d000c0e" class="contact-card">
                         <div class="contact-icon">📧</div>
                         <h3 class="contact-title">Email</h3>
-                        <p class="contact-detail">hesham67834512@gmail.com</p>
+                        <p class="contact-detail"><span class="__cf_email__" data-cfemail="b4dcd1c7dcd5d982838c8780818586f4d3d9d5ddd89ad7dbd9">[email&#160;protected]</span></p>
                     </a>
                     <a href="https://linkedin.com/in/hesham-rashed" target="_blank" class="contact-card">
                         <div class="contact-icon">💼</div>
@@ -469,10 +618,10 @@
                         <h3 class="contact-title">Phone</h3>
                         <p class="contact-detail">+20 1277260443</p>
                     </div>
-                    <a href="mailto:heshaaam2004@icloud.com" class="contact-card">
+                    <a href="/cdn-cgi/l/email-protection#650d00160d0404040857555551250c06090a10014b060a08" class="contact-card">
                         <div class="contact-icon">✉️</div>
                         <h3 class="contact-title">iCloud</h3>
-                        <p class="contact-detail">heshaaam2004@icloud.com</p>
+                        <p class="contact-detail"><span class="__cf_email__" data-cfemail="85ede0f6ede4e4e4e8b7b5b5b1c5ece6e9eaf0e1abe6eae8">[email&#160;protected]</span></p>
                     </a>
                 </div>
             </div>
@@ -480,13 +629,4 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Hesham Rashed. All rights reserved.</p>
-            <p class="footer-tagline">Built with passion for AI and innovation</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    <f
